@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/1deb210767.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/arman.png" alt="" class="logo">
+    <ul id="sidemenu">
+        <li><a href="#header">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#portfolio">portfolio</a></li>
+        <li><a href="#contact">contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        
+    </ul>
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="heading-text">
+        <p>web developer</p>
+        <h1>Hi, I'm <span>Arman hosen</span> <br>from bangladeh</h1>
+    </div>
+</div>
+   </div>
+<!-----------------------about section----------------------->
+
+<div class="about" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">about me </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis nemo voluptas reprehenderit, quas est omnis quae voluptatibus molestias quos incidunt sed veritatis impedit aut odit consectetur laboriosam, totam quis repudiandae.</p>
+
+
+                <div class="tab-title">
+                    <p class="tab-links active-links" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('exprience')">exprience</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>web design</span><br>Technical skills in HTML and JavaScript, as well as a strong understanding of design and usability concepts</li>
+                        <li><span>Ms word</span><br>editing and saving files, using the clipboard, recognizing user interface features, spell check, and printing files.</li>
+                        <li><span>ms excel</span><br> the ability to produce graphs and tables, use spreadsheets efficiently, and perform calculations and automation to process large volumes of data</li>
+                        <li><span>ms powerpoint</span><br>enthusiasm and honesty, electrifying stage presence, focus on the public and great body language. </li>
+                        <li><span>canva design</span><br> design and creativity skills</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="exprience">
+                    <ul>
+                        <li><span>web design</span><br>Html5 css</li>
+                        <li><span>web design</span><br>e-commerce website</li>
+                        <li><span>web design</span><br>e-commerce website</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>SSC (2016-2017)</span><br>Science</li>
+                        <li><span>Diploma (2017-2021)</span><br>computer Science and technology</li>
+                        <li><span>b.sc()</span><br>in CSE</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+<!--------------------------Services------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">my services </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>web design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ex est expedita beatae quisquam enim quidem error consequatur quos deserunt!</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>web development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ex est expedita beatae quisquam enim quidem error consequatur quos deserunt!</p>
+                <a href="#">learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-wordpress"></i>
+                <h2>wardpress </h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ex est expedita beatae quisquam enim quidem error consequatur quos deserunt!</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------portfolio-------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">my works </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" alt="">
+                <div class="layer">
+                    <h3>social media website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi porro, dolore accusantium unde voluptatibus laborum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3>music website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi porro, dolore accusantium unde voluptatibus laborum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3>online shopping  website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi porro, dolore accusantium unde voluptatibus laborum!</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+
+<!------------------------contact------------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>armanhosen@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>01630588727</p>
+                <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download="" class="btn btn-2">download CV</a>
+            </div>
+            <div class="contact-right">
+                <form action="">
+            <input type="text" name="name" placeholder=" Your Name" required>
+            <input type="email" name="email" placeholder=" Your Email" required>
+            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @arman hosen made by <i class="fas fa-heart"></i>  arman</p>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname)
+    {
+        for(tablink of tablinks){
+        tablink.classList.remove("active-links");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-links");
+       document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+        
+    }
+</script>
+
+</body>
+</html>
